@@ -1,0 +1,17 @@
+start instructions
+
+in terminal:
+sanity login
+sanity graphql deploy dbtimelineportfolio
+sanity start
+
+
+https://7r4duhdc.api.sanity.io/v1/graphql/dbtimelineportfolio/default
+
+
+
+test out the slug issue for the location query 
+
+  query ($slug: String!) {
+    job: sanityJobrole(slug: { current: { eq: $slug } }) {
+      name
