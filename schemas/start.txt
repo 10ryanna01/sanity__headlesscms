@@ -15,3 +15,17 @@ test out the slug issue for the location query
   query ($slug: String!) {
     job: sanityJobrole(slug: { current: { eq: $slug } }) {
       name
+
+
+      cross check realtime updates with this walk though:
+      https://www.youtube.com/watch?v=NO7_jgzVgbc
+
+
+         {
+                name: 'endingmonth',
+                title: 'end month of job role',
+                type: 'string',        
+                description: 'what month did you finish this role in',
+                
+
+            },

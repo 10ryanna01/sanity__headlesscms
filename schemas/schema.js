@@ -17,6 +17,8 @@ import topping from './topping';
 import personpizza from './personpizza';  
 import jobrole from './jobrole';
 import jobYear from './jobYear';
+import startmonth from './jobStartM';
+import endingmonth from './jobEndM';
 import jobLocation from './jobLocation';
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -32,6 +34,8 @@ export default createSchema({
     jobrole,
     jobYear,
     jobLocation,
+    startmonth,
+    endingmonth,
     // end job data
 
     pizza,

@@ -28,6 +28,26 @@ export default {
                 
 
             },
+            
+          
+            {
+                name: 'startmonth',
+                title: 'start month of job role', 
+                type: 'array',
+                of: [{type: 'reference', to:[{type: 'startmonth'}] }]
+
+
+            },
+            
+            {
+                name: 'endingmonth',
+                title: 'end month of job role', 
+                type: 'array',
+                of: [{type: 'reference', to:[{type: 'endingmonth'}] }]
+
+
+            },
+         
             {
                 name: 'companyoutline',
                 title: 'outline of what company does',
@@ -101,6 +121,8 @@ export default {
             title: 'name',           
             joblocation0: 'joblocation.0.name',
             jobyear0: 'jobyear.0.name',
+            startmonth0: 'startmonth.0.name',
+            endingmonth0: 'endingmonth.0.name',
             
         },
     
