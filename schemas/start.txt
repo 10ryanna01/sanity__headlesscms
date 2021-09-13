@@ -29,3 +29,9 @@ test out the slug issue for the location query
                 
 
             },
+
+============
+sorting
+        sanity sort order types https://www.sanity.io/docs/sort-orders
+        used year by startmonth
+===============
