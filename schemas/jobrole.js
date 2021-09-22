@@ -88,6 +88,16 @@ export default {
     },
   ],
 
+  orderings: [
+    {
+      name: "startmonth",
+      title: "start month of job role",
+      by: [
+        {field: 'startmonth', direction: 'desc'}
+      ]
+    },
+  ],
+
   preview: {
     select: {
       title: "namecompany",
@@ -110,3 +120,4 @@ export default {
     },
   },
 };
+    
