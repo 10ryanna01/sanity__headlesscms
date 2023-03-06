@@ -3,7 +3,7 @@ start instructions
 in terminal:
 sanity login
 sanity graphql deploy dbtimelineportfolio
-sanity start
+sanity start / npm run dev
 
 
 https://7r4duhdc.api.sanity.io/v1/graphql/dbtimelineportfolio/default
